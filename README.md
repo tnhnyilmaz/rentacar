@@ -17,8 +17,7 @@ RentACar, kullanıcıların kolayca araç kiralayabilecekleri modern ve kullanı
 1. Ana sayfada araç kategorilerini görüntüleyin.
 2. İstediğiniz kategoriyi seçerek mevcut araçları listeleyin.
 3. Bir araç seçin ve detaylarını inceleyin.
-4. Kiralama tarihlerini seçin ve müsaitlik durumunu ko![1](https://github.com/user-attachments/assets/1c1359cb-796b-40d3-b337-6f6459f03076)
-ntrol edin.
+4. Kiralama tarihlerini seçin ve müsaitlik durumunu kontrol edin.
 5. Ek hizmetleri seçin (opsiyonel).
 6. "Rezervasyon Yap" butonuna tıklayarak ödeme sayfasına ilerleyin.
 7. Kişisel bilgilerinizi girin ve ödeme işlemini tamamlayın.
