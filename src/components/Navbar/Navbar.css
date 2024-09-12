@@ -1,0 +1,34 @@
+.navbar-title{
+    font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: bold;
+}
+.navbar-item{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+}.navbar-item .group:hover ul {
+    display: block;
+}
+
+.navbar-item ul {
+    display: none;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-top: 0;  /* Remove margin to prevent gap */
+    padding-top: 0.5rem;  /* Adjust padding to ensure space */
+    z-index: 10;
+    width: 200px;  /* Set the width here */
+    height: auto;  /* Adjust the height here, or use a fixed value */
+}
+
+.navbar-item ul li {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-item ul li:hover {
+    background-color: #f0f0f0;
+}

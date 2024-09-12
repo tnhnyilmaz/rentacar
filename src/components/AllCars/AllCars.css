@@ -1,0 +1,20 @@
+.container {
+    padding: 4%;
+    margin: 0 auto;
+}
+
+.border-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Kartlar arasındaki boşluk */
+}
+
+.border-container .car-card {
+    flex: 1 1 calc(33.333% - 20px);
+    /* Kart genişliği, bir satırda 3 kart olacak şekilde ayarlandı */
+    box-sizing: border-box;
+    /* Padding ve border gibi değerlerin genişlik hesaplamalarına dahil edilmesini sağlar */
+    margin-bottom: 20px;
+    /* Alt boşluk */
+}

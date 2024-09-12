@@ -1,0 +1,23 @@
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    text-align: left;
+}
+
+.banner-title {
+    font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+    font-weight: bold;
+}
+.banner-image{
+    width: 100%;
+}
+.banner-border{
+    border: 0cap;
+    background-color: #e5e7eb;
+    width: 100%;
+    padding: 7%;
+    margin-top: 7%;
+}

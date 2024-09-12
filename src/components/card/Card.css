@@ -1,0 +1,72 @@
+.border-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Kartlar arasındaki boşluk */
+    justify-content: space-between;
+}
+
+.car-card {
+    flex: 1 1 calc(33.333% - 20px);
+    /* Kart genişliği, bir satırda 3 kart olacak şekilde ayarlandı */
+    box-sizing: border-box;
+    /* Padding ve border gibi değerlerin genişlik hesaplamalarına dahil edilmesini sağlar */
+    margin-bottom: 20px;
+    /* Alt boşluk */
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-details {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.features-list,
+.rental-conditions {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.features-list li,
+.rental-conditions li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+@media (max-width: 1024px) {
+    .car-card {
+        flex: 1 1 calc(20% - 20px);
+        /* Orta büyüklükte ekranlarda 2 kartlı düzen */
+    }
+}
+
+@media (max-width: 768px) {
+    .car-card {
+        flex: 1 1 calc(50% - 20px);
+        /* Küçük ekranlarda 2 kartlı düzen */
+    }
+}
+
+@media (max-width: 480px) {
+    .car-card {
+        flex: 1 1 100%;
+        /* Çok küçük ekranlarda tek kartlı düzen */
+    }
+}

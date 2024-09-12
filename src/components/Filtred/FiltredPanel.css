@@ -1,0 +1,13 @@
+.filter-panel {
+    padding: 20px;
+    width: 250px;
+}
+
+.filter-category h4 {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.filter-category div {
+    margin-bottom: 8px;
+}

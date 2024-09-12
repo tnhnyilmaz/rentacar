@@ -1,0 +1,76 @@
+.container{
+    width: auto;
+    padding-right: 6%;
+    
+}
+.car-detail{
+    width: 90%;
+    
+}
+.odeme-container{
+    width: 35%;
+    padding: 5%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.detail-img{
+    width: 30%;
+    object-fit: cover;
+}
+.card-image{
+    width: 35%;
+}
+.arac-card{
+    width: 85%;
+}.tiklik {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fullscreen-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Diğer elemanların üstünde görünmesi için */
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 5px 10px;
+    background-color: rgb(250, 204, 21);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text-cont{
+    width: 55%;
+}
+.ok-btn{
+    align-items: end;
+    right: 20px;
+}
+.cont-title{
+    font-weight: 700;
+}
